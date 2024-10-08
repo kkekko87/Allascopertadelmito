@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Un semplice blog con articoli su vari argomenti">
+    <title>Il Mio Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Il Mio Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Chi Sono</a></li>
+                    <li><a href="#blog">Articoli</a></li>
+                    <li><a href="#contact">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Benvenuto nel Mio Blog!</h2>
+            <p>Qui troverai articoli su vari argomenti, dalla tecnologia alla vita quotidiana.</p>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container">
+            <h2>Ultimi Articoli</h2>
+            <article>
+                <h3>Titolo dell'Articolo 1</h3>
+                <p>Questo è un estratto del primo articolo. Leggi di più su questo argomento cliccando qui...</p>
+                <a href="#" class="read-more">Leggi di più</a>
+            </article>
+            <article>
+                <h3>Titolo dell'Articolo 2</h3>
+                <p>Questo è un estratto del secondo articolo. Scopri di più continuando la lettura...</p>
+                <a href="#" class="read-more">Leggi di più</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Chi Sono</h2>
+            <p>Sono un appassionato di scrittura e tecnologia. Mi piace condividere le mie idee attraverso il mio blog.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contattami</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Messaggio:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Invia</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Il Mio Blog - Tutti i diritti riservati</p>
+        </div>
+    </footer>
+</body>
+</html>
